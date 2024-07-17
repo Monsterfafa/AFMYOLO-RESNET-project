@@ -1,0 +1,11 @@
+train: custom_dataset/train/  
+val: custom_dataset/val/ 
+
+
+# number of classes
+nc: 4
+
+
+# class names
+names: ['bad spot', 'bad spot1', 'bus', 'number']
+
