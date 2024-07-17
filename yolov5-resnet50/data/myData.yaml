@@ -1,0 +1,15 @@
+# train: ../custom_dataset/images/train
+# val: ../custom_dataset/images/val
+path: ../yolov5-resnet50/custom_dataset/
+train: train.txt
+val:  val.txt
+# train: ../custom_dataset/dataSet_path/train.txt
+# val: ../custom_dataset/dataSet_path/val.txt
+# train: custom_dataset/train/  
+# val: custom_dataset/val/ 
+
+# number of classes
+nc: 1
+
+# class names
+names: ["trafficlight"]
